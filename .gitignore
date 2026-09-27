@@ -1,0 +1,57 @@
+# Python environments and generated files
+/venv/
+/.venv/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+/build/
+/dist/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+child_development_app/android/local.properties
+child_development_app/android/key.properties
+*.jks
+*.keystore
+
+# Local databases and private/runtime data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+/uploads/
+/.cache/
+
+# Flutter and Android generated artifacts in the nested application
+/child_development_app/build/
+/child_development_app/.dart_tool/
+/child_development_app/.flutter-plugins
+/child_development_app/.flutter-plugins-dependencies
+/child_development_app/.packages
+/child_development_app/android/.gradle/
+/child_development_app/android/app/debug/
+/child_development_app/android/app/profile/
+/child_development_app/android/app/release/
+
+# Local archives and diagnostic output
+/app.zip
+/output.txt
+
+# Working/specification documents not required by the deployed application
+/PART 1.docx
+/CDTMP_Application_Specification_for_GPT_Luna.docx
+/Va - app explained .pdf
